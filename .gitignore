@@ -1,2 +1,2 @@
-module/node_modules/*
-modules/html/*
+node_modules/*
+html/*
