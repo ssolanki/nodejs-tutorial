@@ -5,10 +5,10 @@ var http = require('http');
 var app = connect();
 
 function profile(request,response){
-	console.log("User requested for profile");
+	console.log("User requested for profile!");
 }
 function forum(request,response){
-	console.log("User requested for forum");
+	console.log("User requested for forum!");
 }
 app.use('/profile',profile);
 app.use('/forum',forum);
